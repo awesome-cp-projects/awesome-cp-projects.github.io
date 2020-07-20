@@ -59,13 +59,13 @@ $(document).ready(() => {
                     }
                 });
 
-                const reverseKey = '__sortReverse_' + by;
+                const reverseSymbol = Symbol.for('sortReverse_' + by);
 
-                if (arr[reverseKey]) {
+                if (arr[reverseSymbol]) {
                     arr.reverse();
                 }
 
-                arr[reverseKey] = !arr[reverseKey];
+                arr[reverseSymbol] = !arr[reverseSymbol];
             },
             refresh() {
                 $.get({ url: '/list.yaml', cache: false }).done((data) => {
