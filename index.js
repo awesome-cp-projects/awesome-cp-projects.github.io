@@ -121,6 +121,14 @@ $(document).ready(() => {
                                 });
                             }
                         };
+                        const allTypes = {
+                            name: "All",
+                            repos: []
+                        };
+                        for (const { repos } of this.list) {
+                            allTypes.repos.push(...repos);
+                        }
+                        this.list.push(allTypes);
                     } catch (e) {
                         console.error(e);
                         alert("Error occurred while rederring the list.");
