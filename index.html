@@ -18,7 +18,10 @@
 
 <body>
     <div v-cloak id="app">
-        <div v-if="list.length > 0">
+        <div v-if="list.length === 0">
+            Loading...
+        </div>
+        <div v-else>
             <div class="container">
                 <div class="row">
                     <h2>Settings</h2>
@@ -80,10 +83,15 @@
                 </div>
             </div>
         </div>
-        <div v-else>
-            Loading...
-        </div>
     </div>
+    <hr>
+    <footer>
+        <div class="container text-center">
+            <a target="_blank" href="https://github.com/awesome-cp-projects/awesome-cp-projects.github.io">
+                GitHub Repo
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
