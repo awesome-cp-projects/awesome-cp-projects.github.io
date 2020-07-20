@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Awesome Competitive Programming Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="referrer" content="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emoji-js@3.5.0/lib/emoji.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div v-cloak id="app">
+        <div v-if="list.length > 0">
+            <div class="container">
+                <div class="row">
+                    <h2>Settings</h2>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="form-text">GitHub Personal Access Token (optional, used to
+                            <a href="https://docs.github.com/rest/reference/rate-limit">increase the API rate limit</a>,
+                            saved in your local storage)</label>
+                        <input class="form-control" type="password" v-model="inputToken"
+                            :class="{ 'is-invalid' : token !== '' && !isTokenValid, 'is-valid': isTokenValid }"
+                            @change="saveToken">
+                        <small class="form-text text-muted">
+                            You can
+                            <a href="https://github.com/settings/tokens/new">
+                                generate a new GitHub Personal Access Token
+                            </a>
+                            with the <code>public_repo</code> scope.
+                        </small>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2>Table of Contents</h2>
+                </div>
+                <div>
+                    <ul class="list-group" v-for="({name}) in list" :key="name">
+                        <li class="list-group-item"><a :href="'#' + name">{{ name }}</a></li>
+                    </ul>
+                </div>
+                <div class="row pt-4 pb-3">
+                    <button class="btn btn-primary" @click="refresh">Refresh</button>
+                </div>
+            </div>
+            <div class="container" v-for="({name, repos}) in list" :key="name">
+                <div class="row">
+                    <h3 :id="name">{{ name }}</h3>
+                    <table class="table table-bordered">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col" @click="sort(repos, 'name')">Name</th>
+                                <th scope="col" @click="sort(repos, 'repo')">Link</th>
+                                <th scope="col" @click="sort(repos, 'stars')">Stars</th>
+                                <th scope="col" @click="sort(repos, 'forks')">Forks</th>
+                                <th scope="col" @click="sort(repos, 'updatedSort')">Updated</th>
+                                <th scope="col" @click="sort(repos, 'createdSort')">Created</th>
+                            </tr>
+                        </thead>
+                        <tbody v-for="repo in repos" :key="repo.name">
+                            <tr>
+                                <td :title="repo.description">{{ repo.name }}</td>
+                                <td><a :href="repo.link">{{ repo.repo }}</a></td>
+                                <td :title="repo.starsTitle">{{ repo.stars }}</td>
+                                <td :title="repo.forksTitle">{{ repo.forks }}</td>
+                                <td :title="repo.updatedTitle">{{ repo.updated }}</td>
+                                <td :title="repo.createdTitle">{{ repo.created }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div v-else>
+            Loading...
+        </div>
+    </div>
+</body>
+
+</html>
