@@ -1,7 +1,13 @@
-Tutorials:
+Lists:
+  Awesome Competitive Programming: lnishan/awesome-competitive-programming
+  Awesome Competitive Programming Projects: awesome-cp-projects/awesome-cp-projects.github.io
+Tutorials/Resources:
   OI Wiki: OI-wiki/OI-wiki
   AlgoWiki: vicky002/AlgoWiki
+  ACM-ICPC Preparation: BedirT/ACM-ICPC-Preparation
   e-maxx-eng: e-maxx-eng/e-maxx-eng
+  USACO: bqi343/USACO
+  Competitive-Programming-Docs: LzyRapx/Competitive-Programming-Docs
 Tools For Solving Problems:
   CF Tool: xalanq/cf-tool
   CP Editor: cpeditor/cpeditor
@@ -17,5 +23,21 @@ VS Code Extensions:
   Competitive Programming Helper: agrawal-d/competitive-programming-helper
   ICIE: pustaczek/icie
   ACMX: mfornet/acmx
-Libraries:
+Web App:
+  AtCoder Problems: kenkoooo/AtCoderProblems
+  UpSolve: zenolus/upsolve
+Libraries/Snippets/Templates:
+  Pythonic Data Structures and Algorithms: keon/algorithms
+  Data Structure and Algorithmic Problems solved in many languages: marcosfede/algorithms
+  Data Structures and Algorithms: rachitiitr/DataStructures-Algorithms
+  KACTL: kth-competitive-programming/kactl
   CPTH: ouuan/CPTH
+Solutions:
+  Leetcode solutions in Java: gouthampradhan/leetcode
+  Project Euler solutions: nayuki/Project-Euler-solutions
+  Online Judge Solutions: marioyc/Online-Judge-Solutions
+Online Judges:
+  DMOJ Judge: DMOJ/judge-server
+  DOMjudge: DOMjudge/domjudge
+  SYZOJ: syzoj/syzoj
+  Universal Online Judge: UniversalOJ/UOJ-System
