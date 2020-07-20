@@ -75,7 +75,7 @@
                                 <th scope="col" @click="sort(repos, 'repo')">Repo</th>
                                 <th scope="col" @click="sort(repos, 'stars')">Stars</th>
                                 <th scope="col" @click="sort(repos, 'forks')">Forks</th>
-                                <th scope="col" @click="sort(repos, 'updatedSort')">Updated</th>
+                                <th scope="col" @click="sort(repos, 'pushedSort')">Pushed</th>
                                 <th scope="col" @click="sort(repos, 'createdSort')">Created</th>
                             </tr>
                         </thead>
@@ -85,7 +85,7 @@
                                 <td><a :href="repo.link">{{ repo.repo }}</a></td>
                                 <td :title="repo.starsTitle">{{ repo.stars }}</td>
                                 <td :title="repo.forksTitle">{{ repo.forks }}</td>
-                                <td :title="repo.updatedTitle">{{ repo.updated }}</td>
+                                <td :title="repo.pushedTitle">{{ repo.pushed }}</td>
                                 <td :title="repo.createdTitle">{{ repo.created }}</td>
                             </tr>
                         </tbody>
