@@ -1,43 +1,43 @@
 Lists:
-  Awesome Competitive Programming: lnishan/awesome-competitive-programming
-  Awesome Competitive Programming Projects: awesome-cp-projects/awesome-cp-projects.github.io
+  lnishan/awesome-competitive-programming: Awesome Competitive Programming
+  awesome-cp-projects/awesome-cp-projects.github.io: Awesome Competitive Programming Projects
 Tutorials/Resources:
-  OI Wiki: OI-wiki/OI-wiki
-  AlgoWiki: vicky002/AlgoWiki
-  ACM-ICPC Preparation: BedirT/ACM-ICPC-Preparation
-  e-maxx-eng: e-maxx-eng/e-maxx-eng
-  USACO: bqi343/USACO
-  Competitive-Programming-Docs: LzyRapx/Competitive-Programming-Docs
+  OI-wiki/OI-wiki: OI Wiki
+  vicky002/AlgoWiki: AlgoWiki
+  BedirT/ACM-ICPC-Preparation: ACM-ICPC Preparation
+  e-maxx-eng/e-maxx-eng: e-maxx-eng
+  bqi343/USACO: USACO
+  LzyRapx/Competitive-Programming-Docs: Competitive-Programming-Docs
 Tools For Solving Problems:
-  CF Tool: xalanq/cf-tool
-  CP Editor: cpeditor/cpeditor
-  Online Judge Tools: kmyk/online-judge-tools
-  Hightail: dj3500/hightail
-  AtCoder CLI: Tatamo/atcoder-cli
-  Codeforces Tool: cp-tools/cf-tool
+  xalanq/cf-tool: CF Tool
+  cpeditor/cpeditor: CP Editor
+  kmyk/online-judge-tools: Online Judge Tools
+  dj3500/hightail: Hightail
+  Tatamo/atcoder-cli: AtCoder CLI
+  cp-tools/cf-tool: Codeforces Tool
 Other Tools:
-  UOJ Data Converter: ouuan/uoj-data-converter
+  ouuan/uoj-data-converter: UOJ Data Converter
 Browser Addons:
-  Competitive Companion: jmerle/competitive-companion
+  jmerle/competitive-companion: Competitive Companion
 VS Code Extensions:
-  Competitive Programming Helper: agrawal-d/competitive-programming-helper
-  ICIE: pustaczek/icie
-  ACMX: mfornet/acmx
+  agrawal-d/competitive-programming-helper: Competitive Programming Helper
+  pustaczek/icie: ICIE
+  mfornet/acmx: ACMX
 Web App:
-  AtCoder Problems: kenkoooo/AtCoderProblems
-  UpSolve: zenolus/upsolve
+  kenkoooo/AtCoderProblems: AtCoder Problems
+  zenolus/upsolve: UpSolve
 Libraries/Snippets/Templates:
-  Pythonic Data Structures and Algorithms: keon/algorithms
-  Data Structure and Algorithmic Problems solved in many languages: marcosfede/algorithms
-  Data Structures and Algorithms: rachitiitr/DataStructures-Algorithms
-  KACTL: kth-competitive-programming/kactl
-  CPTH: ouuan/CPTH
+  keon/algorithms: Pythonic Data Structures and Algorithms
+  marcosfede/algorithms: Data Structure and Algorithmic Problems solved in many languages
+  rachitiitr/DataStructures-Algorithms: Data Structures and Algorithms
+  kth-competitive-programming/kactl: KACTL
+  ouuan/CPTH: CPTH
 Solutions:
-  Leetcode solutions in Java: gouthampradhan/leetcode
-  Project Euler solutions: nayuki/Project-Euler-solutions
-  Online Judge Solutions: marioyc/Online-Judge-Solutions
+  gouthampradhan/leetcode: Leetcode solutions in Java
+  nayuki/Project-Euler-solutions: Project Euler solutions
+  marioyc/Online-Judge-Solutions: Online Judge Solutions
 Online Judges:
-  DMOJ Judge: DMOJ/judge-server
-  DOMjudge: DOMjudge/domjudge
-  SYZOJ: syzoj/syzoj
-  Universal Online Judge: UniversalOJ/UOJ-System
+  DMOJ/judge-server: DMOJ Judge
+  DOMjudge/domjudge: DOMjudge
+  syzoj/syzoj: SYZOJ
+  UniversalOJ/UOJ-System: Universal Online Judge

@@ -79,7 +79,7 @@
                                 <th scope="col" @click="sort(repos, 'createdSort')">Created</th>
                             </tr>
                         </thead>
-                        <tbody v-for="repo in repos" :key="repo.name">
+                        <tbody v-for="repo in repos" :key="repo.repo">
                             <tr>
                                 <td :title="repo.description">{{ repo.name }}</td>
                                 <td><a :href="repo.link">{{ repo.repo }}</a></td>

@@ -77,7 +77,7 @@ $(document).ready(() => {
                                 repos: []
                             };
                             this.list.push(currentType);
-                            for (const [name, repo] of Object.entries(repos)) {
+                            for (const [repo, name] of Object.entries(repos)) {
                                 const currentRepo = {
                                     name,
                                     repo,
