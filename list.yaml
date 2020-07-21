@@ -7,6 +7,7 @@ Tutorials/Resources:
   BedirT/ACM-ICPC-Preparation: ACM-ICPC Preparation
   e-maxx-eng/e-maxx-eng: e-maxx-eng
   bqi343/USACO: USACO
+  mostafa-saad/ArabicCompetitiveProgramming: ArabicCompetitiveProgramming
   LzyRapx/Competitive-Programming-Docs: Competitive-Programming-Docs
 Tools For Solving Problems:
   xalanq/cf-tool: CF Tool
@@ -14,11 +15,17 @@ Tools For Solving Problems:
   kmyk/online-judge-tools: Online Judge Tools
   dj3500/hightail: Hightail
   Tatamo/atcoder-cli: AtCoder CLI
+  EgorKulikov/idea-chelper: CHelper
+  AlexeyDmitriev/JHelper: JHelper
+  slycelote/caide: caide
+  fjzzq2002/CFBooster: CFBooster
   cp-tools/cf-tool: Codeforces Tool
 Other Tools:
   ouuan/uoj-data-converter: UOJ Data Converter
 Browser Addons:
+  nishanthvijayan/CoderCalendar-Extensions: Coder's Calendar
   jmerle/competitive-companion: Competitive Companion
+  MohamedMahmoudHassan/Codeforces-Practice-Tracker: Codeforces-Practice-Tracker
 VS Code Extensions:
   agrawal-d/competitive-programming-helper: Competitive Programming Helper
   pustaczek/icie: ICIE
@@ -28,6 +35,8 @@ Web App:
   zenolus/upsolve: UpSolve
 Libraries/Snippets/Templates:
   keon/algorithms: Pythonic Data Structures and Algorithms
+  soulmachine/acm-cheat-sheet: ACM Cheat Sheet
+  indy256/codelibrary: Collection of algorithms and data structures in C++ and Java
   marcosfede/algorithms: Data Structure and Algorithmic Problems solved in many languages
   rachitiitr/DataStructures-Algorithms: Data Structures and Algorithms
   kth-competitive-programming/kactl: KACTL
@@ -36,7 +45,9 @@ Solutions:
   gouthampradhan/leetcode: Leetcode solutions in Java
   nayuki/Project-Euler-solutions: Project Euler solutions
   marioyc/Online-Judge-Solutions: Online Judge Solutions
+  mostafa-saad/MyCompetitiveProgramming: MyCompetitiveProgramming
 Online Judges:
+  QingdaoU/OnlineJudge:  QingdaoU Online Judge
   DMOJ/judge-server: DMOJ Judge
   DOMjudge/domjudge: DOMjudge
   syzoj/syzoj: SYZOJ
