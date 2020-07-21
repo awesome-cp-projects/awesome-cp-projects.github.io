@@ -62,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="row pt-4 pb-3">
-                    <button class="btn btn-primary" @click="refresh">Refresh</button>
+                    <button class="btn btn-primary" @click="refresh(false)">Refresh</button>
                 </div>
             </div>
             <div class="container" v-for="({name, repos}) in list" :key="name">

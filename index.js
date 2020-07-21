@@ -67,8 +67,8 @@ $(document).ready(() => {
 
                 arr[reverseSymbol] = !arr[reverseSymbol];
             },
-            refresh() {
-                $.get({ url: '/list.yaml', cache: false }).done((data) => {
+            refresh(cache) {
+                $.get({ url: '/list.yaml', cache }).done((data) => {
                     try {
                         this.list = [];
                         for (const [type, repos] of Object.entries(jsyaml.load(data))) {
@@ -96,7 +96,7 @@ $(document).ready(() => {
                                         Authorization: vm.token === '' ? undefined : `token ${vm.token}`
                                     },
                                     type: "GET",
-                                    cache: false,
+                                    cache,
                                     success: function (info) {
                                         if (info.description) {
                                             currentRepo.description = emoji.replace_colons(info.description);
@@ -139,7 +139,7 @@ $(document).ready(() => {
             }
         },
         created() {
-            this.refresh();
+            this.refresh(true);
         }
     });
 });
