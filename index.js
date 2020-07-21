@@ -131,7 +131,7 @@ $(document).ready(() => {
                         this.list.push(allTypes);
                     } catch (e) {
                         console.error(e);
-                        alert("Error occurred while rederring the list.");
+                        alert("Error occurred while renderring the list.");
                     }
                 }).fail(function () {
                     alert("Error occurred while getting the list.");
