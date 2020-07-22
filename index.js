@@ -16,6 +16,9 @@ $(document).ready(() => {
             isTokenValid: (vm) => vm.token.length === 40
         },
         methods: {
+            idForName(name) {
+                return name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+            },
             saveToken() {
                 localStorage.setItem('token', this.token);
             },

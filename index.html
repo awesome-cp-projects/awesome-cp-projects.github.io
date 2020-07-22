@@ -61,7 +61,7 @@
                 </div>
                 <div>
                     <ul class="list-group" v-for="({name}) in list" :key="name">
-                        <li class="list-group-item"><a :href="'#' + name">{{ name }}</a></li>
+                        <li class="list-group-item"><a :href="'#' + idForName(name)">{{ name }}</a></li>
                     </ul>
                 </div>
                 <div class="row pt-4 pb-3">
@@ -70,7 +70,7 @@
             </div>
             <div class="container" v-for="({name, repos}) in list" :key="name">
                 <div class="row pb-2">
-                    <h3 :id="name" class="col-sm-8 col-md-9 col-lg-10">{{ name }}</h3>
+                    <h3 :id="idForName(name)" class="col-sm-8 col-md-9 col-lg-10">{{ name }}</h3>
                     <a :href="starHistory(repos)" class="col-sm-4 col-md-3 col-lg-2 btn btn-secondary" target="_blank">
                         View Star History
                     </a>
