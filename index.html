@@ -39,14 +39,16 @@
                 <div class="row">
                     <div class="form-group">
                         <label class="form-text">GitHub Personal Access Token (optional, used to
-                            <a href="https://docs.github.com/rest/reference/rate-limit">increase the API rate limit</a>,
+                            <a target="_blank" href="https://docs.github.com/rest/reference/rate-limit">
+                                increase the API rate limit
+                            </a>,
                             saved in your local storage)</label>
                         <input class="form-control" type="password" v-model="inputToken"
                             :class="{ 'is-invalid' : token !== '' && !isTokenValid, 'is-valid': isTokenValid }"
                             @change="saveToken">
                         <small class="form-text text-muted">
                             You can
-                            <a href="https://github.com/settings/tokens/new">
+                            <a target="_blank" href="https://github.com/settings/tokens/new">
                                 generate a new GitHub Personal Access Token
                             </a>
                             with the <code>public_repo</code> scope.
@@ -88,7 +90,7 @@
                         <tbody v-for="repo in repos" :key="repo.repo">
                             <tr>
                                 <td :title="repo.description">{{ repo.name }}</td>
-                                <td><a :href="repo.link">{{ repo.repo }}</a></td>
+                                <td><a :href="repo.link" target="_blank">{{ repo.repo }}</a></td>
                                 <td :title="repo.starsTitle">{{ repo.stars }}</td>
                                 <td :title="repo.forksTitle">{{ repo.forks }}</td>
                                 <td :title="repo.pushedTitle">{{ repo.pushed }}</td>
