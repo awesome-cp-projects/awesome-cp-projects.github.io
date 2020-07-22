@@ -19,6 +19,9 @@ $(document).ready(() => {
             saveToken() {
                 localStorage.setItem('token', this.token);
             },
+            starHistory(repos) {
+                return 'https://star-history.t9t.io/#' + repos.map(({ repo }) => repo).join('&');
+            },
             sort(arr, by) {
                 function naturalSorter(as, bs) {
                     var a, b, a1, b1, i = 0, n, L,

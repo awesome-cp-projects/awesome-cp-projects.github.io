@@ -66,8 +66,14 @@
                 </div>
             </div>
             <div class="container" v-for="({name, repos}) in list" :key="name">
+                <div class="row pb-2">
+                    <h3 :id="name" class="col-4">{{ name }}</h3>
+                    <span class="col-6"></span>
+                    <a :href="starHistory(repos)" class="col-2 btn btn-secondary btn-block" target="_blank">
+                        View Star History
+                    </a>
+                </div>
                 <div class="row">
-                    <h3 :id="name">{{ name }}</h3>
                     <table class="table table-bordered">
                         <thead class="thead-light">
                             <tr>
