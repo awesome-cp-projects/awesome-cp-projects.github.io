@@ -85,6 +85,7 @@
                                 <th scope="col" @click="sort(repos, 'forks')">Forks</th>
                                 <th scope="col" @click="sort(repos, 'pushedSort')">Pushed</th>
                                 <th scope="col" @click="sort(repos, 'createdSort')">Created</th>
+                                <th scope="col" @click="sort(repos, 'starSpeedSort')">Star Speed</th>
                             </tr>
                         </thead>
                         <tbody v-for="repo in repos" :key="repo.repo">
@@ -95,6 +96,7 @@
                                 <td :title="repo.forksTitle">{{ repo.forks }}</td>
                                 <td :title="repo.pushedTitle">{{ repo.pushed }}</td>
                                 <td :title="repo.createdTitle">{{ repo.created }}</td>
+                                <td :title="repo.starSpeedTitle">{{ repo.starSpeed }}</td>
                             </tr>
                         </tbody>
                     </table>

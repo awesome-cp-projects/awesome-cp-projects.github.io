@@ -109,20 +109,27 @@ $(document).ready(() => {
                                         }
                                         currentRepo.stars = info.stargazers_count;
                                         currentRepo.forks = info.forks_count;
+
                                         const pushedMoment = moment(info.pushed_at);
                                         currentRepo.pushed = pushedMoment.fromNow();
                                         currentRepo.pushedTitle = info.pushed_at;
                                         currentRepo.pushedSort = pushedMoment.valueOf();
+
                                         const createdMoment = moment(info.created_at);
                                         currentRepo.created = createdMoment.fromNow();
                                         currentRepo.createdTitle = info.created_at;
                                         currentRepo.createdSort = createdMoment.valueOf();
+
+                                        const perStarDuration = moment.duration(moment().diff(createdMoment) / info.stargazers_count);
+                                        currentRepo.starSpeed = `${perStarDuration.humanize()} per star`;
+                                        currentRepo.starSpeedSort = perStarDuration.asMilliseconds();
+                                        currentRepo.starSpeedTitle = `${Math.round(perStarDuration.asSeconds())} seconds per star`;
                                     },
                                     error: function ({ status, statusText }) {
                                         const errorMessage = `Failed to get the info of [${repo}].\nStatus Code: ${status}\nStatus Text: ${statusText}`;
                                         console.error(errorMessage);
-                                        currentRepo.stars = currentRepo.forks = currentRepo.pushed = currentRepo.created = "Error";
-                                        currentRepo.starsTitle = currentRepo.forksTitle = currentRepo.pushedTitle = currentRepo.createdTitle = errorMessage;
+                                        currentRepo.stars = currentRepo.forks = currentRepo.pushed = currentRepo.created = currentRepo.starSpeed = "Error";
+                                        currentRepo.starsTitle = currentRepo.forksTitle = currentRepo.pushedTitle = currentRepo.createdTitle = currentRepo.starSpeedTitle = errorMessage;
                                     }
                                 });
                             }
