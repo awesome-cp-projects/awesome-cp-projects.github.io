@@ -91,7 +91,8 @@ $(document).ready(() => {
                                     stars: 'Loading...',
                                     forks: 'Loading...',
                                     pushed: 'Loading...',
-                                    created: 'Loading...'
+                                    created: 'Loading...',
+                                    starSpeed: 'Loading...',
                                 };
                                 currentType.repos.push(currentRepo);
                                 $.ajax({
