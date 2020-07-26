@@ -1,4 +1,4 @@
-# Awesome Competitive Programming Projects
+# Awesome Competitive Programming Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [Visit the Website](https://awesome-cp-projects.github.io)
 
