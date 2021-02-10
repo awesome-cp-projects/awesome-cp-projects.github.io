@@ -20,7 +20,6 @@ Tools For Solving Problems:
   kmyk/online-judge-tools: Online Judge Tools
   dj3500/hightail: Hightail
   Tatamo/atcoder-cli: AtCoder CLI
-  Jatana/FastOlympicCoding: Fast Olympic Coding plugin for Sublime Text 3
   EgorKulikov/idea-chelper: CHelper
   AlexeyDmitriev/JHelper: JHelper
   nodchip/OnlineJudgeHelper: OnlineJudgeHelper
@@ -36,10 +35,12 @@ Browser Addons:
   nishanthvijayan/CoderCalendar-Extensions: Coder's Calendar
   jmerle/competitive-companion: Competitive Companion
   MohamedMahmoudHassan/Codeforces-Practice-Tracker: Codeforces-Practice-Tracker
-VS Code Extensions:
+Editor Plugins:
   agrawal-d/cph: Competitive Programming Helper
+  Jatana/FastOlympicCoding: Fast Olympic Coding
   pustaczek/icie: ICIE
   mfornet/acmx: ACMX
+  blueedgetechno/codeblue: codeblue
 Web App:
   kenkoooo/AtCoderProblems: AtCoder Problems
   aropan/clist: clist
