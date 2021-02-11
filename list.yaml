@@ -11,8 +11,8 @@ Tutorials/Resources:
   Xunzhuo/OI_Sharing: OI Sharing
   enkerewpo/OI-Public-Library: OI Public Library
   mostafa-saad/ArabicCompetitiveProgramming: ArabicCompetitiveProgramming
-  LzyRapx/Competitive-Programming-Docs: Competitive Programming Docs
   sahilbansal17/Get_Better_at_CP_in_2_Months: Get Better CP in 2 Months
+  LzyRapx/Competitive-Programming-Docs: Competitive Programming Docs
   ojeveryday/AlgoWiki: AlgoWiki
 Command-line Tools:
   xalanq/cf-tool: CF Tool
@@ -27,8 +27,8 @@ Text Editors/IDEs:
   dj3500/hightail: Hightail
   fukatani/rujaion: Rujaion
 Browser Addons:
-  nishanthvijayan/CoderCalendar-Extensions: Coder's Calendar
   jmerle/competitive-companion: Competitive Companion
+  nishanthvijayan/CoderCalendar-Extensions: Coder's Calendar
   MohamedMahmoudHassan/Codeforces-Practice-Tracker: Codeforces-Practice-Tracker
 Editor Plugins:
   agrawal-d/cph: Competitive Programming Helper
@@ -46,13 +46,13 @@ Web App:
 Libraries/Snippets/Templates:
   keon/algorithms: Pythonic Data Structures and Algorithms
   AhmadElsagheer/Competitive-programming-library: Competitive Programming Library
-  soulmachine/acm-cheat-sheet: ACM Cheat Sheet
-  matthewsamuel95/ACM-ICPC-Algorithms: ACM-ICPC Algorithms
-  indy256/codelibrary: Collection of algorithms and data structures in C++ and Java
-  marcosfede/algorithms: Data Structure and Algorithmic Problems solved in many languages
   rachitiitr/DataStructures-Algorithms: Data Structures and Algorithms
-  Ashishgup1/Competitive-Coding: Competitive Coding
+  soulmachine/acm-cheat-sheet: ACM Cheat Sheet
+  indy256/codelibrary: Collection of algorithms and data structures in C++ and Java
+  matthewsamuel95/ACM-ICPC-Algorithms: ACM-ICPC Algorithms
+  marcosfede/algorithms: Data Structure and Algorithmic Problems solved in many languages
   kth-competitive-programming/kactl: KACTL
+  Ashishgup1/Competitive-Coding: Competitive Coding
   ADJA/algos: Algos
   atcoder/ac-library: AtCoder Library
   ouuan/CPTH: CPTH
@@ -68,8 +68,8 @@ Solutions:
 Online Judges:
   QingdaoU/OnlineJudge:  QingdaoU Online Judge
   DMOJ/judge-server: DMOJ Judge
-  DOMjudge/domjudge: DOMjudge
   syzoj/syzoj: SYZOJ
+  DOMjudge/domjudge: DOMjudge
   UniversalOJ/UOJ-System: Universal Online Judge
   ia-toki/judgels: judgels
   EtherOJ/EtherOJ: EtherOJ
