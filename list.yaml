@@ -14,23 +14,18 @@ Tutorials/Resources:
   LzyRapx/Competitive-Programming-Docs: Competitive Programming Docs
   sahilbansal17/Get_Better_at_CP_in_2_Months: Get Better CP in 2 Months
   ojeveryday/AlgoWiki: AlgoWiki
-Tools For Solving Problems:
+Command-line Tools:
   xalanq/cf-tool: CF Tool
-  cpeditor/cpeditor: CP Editor
   kmyk/online-judge-tools: Online Judge Tools
-  dj3500/hightail: Hightail
   Tatamo/atcoder-cli: AtCoder CLI
-  EgorKulikov/idea-chelper: CHelper
-  AlexeyDmitriev/JHelper: JHelper
   nodchip/OnlineJudgeHelper: OnlineJudgeHelper
-  slycelote/caide: caide
-  fukatani/rujaion: Rujaion
   fjzzq2002/CFBooster: CFBooster
   online-judge-tools/template-generator: Online Judge Template Generator
   cp-tools/cpt: CP Tools
-Other Tools:
-  ouuan/Tree-Generator: Tree Generator
-  ouuan/uoj-data-converter: UOJ Data Converter
+Text Editors/IDEs:
+  cpeditor/cpeditor: CP Editor
+  dj3500/hightail: Hightail
+  fukatani/rujaion: Rujaion
 Browser Addons:
   nishanthvijayan/CoderCalendar-Extensions: Coder's Calendar
   jmerle/competitive-companion: Competitive Companion
@@ -38,8 +33,11 @@ Browser Addons:
 Editor Plugins:
   agrawal-d/cph: Competitive Programming Helper
   Jatana/FastOlympicCoding: Fast Olympic Coding
-  pustaczek/icie: ICIE
+  EgorKulikov/idea-chelper: CHelper
+  AlexeyDmitriev/JHelper: JHelper
   mfornet/acmx: ACMX
+  pustaczek/icie: ICIE
+  slycelote/caide: caide
   blueedgetechno/codeblue: codeblue
 Web App:
   kenkoooo/AtCoderProblems: AtCoder Problems
@@ -58,6 +56,9 @@ Libraries/Snippets/Templates:
   ADJA/algos: Algos
   atcoder/ac-library: AtCoder Library
   ouuan/CPTH: CPTH
+Problem Setting:
+  ouuan/Tree-Generator: Tree Generator
+  ouuan/uoj-data-converter: UOJ Data Converter
 Solutions:
   gouthampradhan/leetcode: Leetcode solutions in Java
   nayuki/Project-Euler-solutions: Project Euler solutions
