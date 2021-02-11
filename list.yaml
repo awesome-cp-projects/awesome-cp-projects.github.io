@@ -57,6 +57,7 @@ Libraries/Snippets/Templates:
   atcoder/ac-library: AtCoder Library
   ouuan/CPTH: CPTH
 Problem Setting:
+  MikeMirzayanov/testlib: testlib.h
   ouuan/Tree-Generator: Tree Generator
   ouuan/uoj-data-converter: UOJ Data Converter
 Solutions:
